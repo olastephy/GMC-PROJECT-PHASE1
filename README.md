@@ -39,3 +39,4 @@ Potential Enhancements:
 
 This project serves as a practical demonstration of cryptographic concepts and provides a functional interface for basic encryption and decryption tasks.
 
+PUBLIC URL:    http://127.0.0.1:5500/index.html

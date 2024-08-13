@@ -1,4 +1,6 @@
-Text Encryption/Decryption and RSA Key Generation Web App
+    Text Encryption/Decryption with RSA Key Generation Web Tool
+
+
 
 This simple web application allows users to input text, which can then be encrypted or decrypted using the AES-256-CBC algorithm. Additionally, the app offers functionality to generate RSA key pairs (both public and private keys).
 Features

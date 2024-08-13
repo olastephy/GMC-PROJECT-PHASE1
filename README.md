@@ -1,42 +1,51 @@
-AES and RSA Cryptography Web Application
+Text Encryption/Decryption and RSA Key Generation Web App
 
-This project is a web-based tool designed to demonstrate and facilitate the use of cryptographic algorithms for secure data handling. The application supports two primary functionalities:
+This simple web application allows users to input text, which can then be encrypted or decrypted using the AES-256-CBC algorithm. Additionally, the app offers functionality to generate RSA key pairs (both public and private keys).
+Features
 
-    AES Encryption/Decryption:
-        AES (Advanced Encryption Standard) is a symmetric encryption algorithm used to secure data through encryption. This project implements AES encryption and decryption features to allow users to encode and decode text using a shared secret key.
-        Features:
-            Encrypt with AES: Users can input plain text and encrypt it using a predefined secret key. The encrypted text is displayed in a separate output area.
-            Decrypt with AES: Users can decrypt previously encrypted text to retrieve the original plain text.
+    Encrypt and decrypt text using AES-256-CBC.
+    Display the encrypted or decrypted text directly on the web page.
+    Generate RSA key pairs (public and private keys).
+    View the generated RSA keys on the web page.
+    Responsive design with basic styling.
 
-    RSA Key Pair Generation and Encryption/Decryption:
-        RSA (Rivest-Shamir-Adleman) is an asymmetric encryption algorithm that uses a pair of keys: a public key for encryption and a private key for decryption. This project includes functionalities to generate RSA key pairs and use them for encrypting and decrypting text.
-        Features:
-            Generate RSA Key Pair: Users can select a key length (1024 or 2048 bits) and generate a pair of RSA keys (public and private). These keys are displayed for use in subsequent encryption and decryption operations.
-            Encrypt with RSA: Users can encrypt text using the RSA public key.
-            Decrypt with RSA: Users can decrypt encrypted text using the RSA private key.
+Prerequisites
 
-Components:
+    Node.js
+    npm (Node Package Manager)
 
-    HTML: Provides the structure for the web interface, including input fields for text, buttons for cryptographic actions, and text areas for displaying results.
-    CSS: (External file, styles.css) Used for styling the application to enhance its visual appeal and usability.
-    JavaScript: Handles the logic for AES and RSA operations using the CryptoJS and JSEncrypt libraries. This includes functions for encryption, decryption, and key generation.
+Installation
 
-Libraries Used:
+    Clone the repository:
 
-    CryptoJS: A JavaScript library for cryptographic algorithms, specifically used for AES encryption and decryption.
-    JSEncrypt: A JavaScript library for RSA encryption and decryption, used to handle RSA key pair generation and operations.
+    bash
 
-Usage:
+git clone https://github.com/Esom/gmc-final-project.git
 
-    AES: Enter text into the input field and use the provided buttons to encrypt or decrypt the text with AES.
-    RSA: Generate RSA keys, and use the generated keys to encrypt or decrypt text through the respective RSA functions.
+Install the necessary dependencies:
 
-Potential Enhancements:
+bash
 
-    Implement more robust key management practices.
-    Add user authentication to secure access to the cryptographic features.
-    Improve error handling and user feedback.
+    npm install
 
-This project serves as a practical demonstration of cryptographic concepts and provides a functional interface for basic encryption and decryption tasks.
+Usage
 
-PUBLIC URL:    http://127.0.0.1:5500/index.html
+    Start the server:
+
+    bash
+
+    node server.js
+
+    Open your browser and navigate to http://localhost:3000.
+
+Text Encryption/Decryption
+
+    To encrypt text: Enter the text in the input field and click the "Encrypt" button. The encrypted text will be displayed below.
+    To decrypt text: Enter the encrypted text in the input field and click the "Decrypt" button. The decrypted text will be displayed below.
+
+RSA Key Generation
+
+    Choose the desired key length from the dropdown menu (1024, 2048, or 4096).
+    Click the "Generate key pair" button. The generated RSA private and public keys will be displayed in the respective text areas.
+
+

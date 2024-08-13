@@ -1,0 +1,25 @@
+/* Set the outer background color to a lighter green */
+body {
+    background-color: #98FB98; /* Lighter shade of green */
+    font-family: 'Arial', sans-serif;
+    color: black;
+    display: flex; /* Use flexbox to center align */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+/* Set the inner container background color to an even lighter green */
+.container {
+    background-color: #ccffcc; /* Very light green */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center the content */
+}
+
+/* Style the headings to be bolder and larger */
+h1, h2 {
+    font-weight: bold  

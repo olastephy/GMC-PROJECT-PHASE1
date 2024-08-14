@@ -22,7 +22,7 @@ Installation
 
     bash
 
-git clone https://github.com/Esom/gmc-final-project.git
+git clone
 
 Install the necessary dependencies:
 
@@ -51,3 +51,4 @@ RSA Key Generation
     Click the "Generate key pair" button. The generated RSA private and public keys will be displayed in the respective text areas.
 
 
+PUBLIC URL:      http://127.0.0.1:5500/index.html
